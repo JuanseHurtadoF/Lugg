@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.content}>
           <p className={fonts.text}>Check out my components:</p>
           <Button text="Reviews" linkTo="/reviews" />
-          <Button text="Revenue Calculator" linkTo="/calculator" />
+          <Button text="Revenue Calculator" linkTo="/become-a-lugger" />
         </div>
         <div className={styles.socials}>
           <Icon width={48} height={48} fill="#fff" as="github" />
