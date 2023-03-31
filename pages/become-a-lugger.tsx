@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@styles/pages/BecomeALugger.module.scss";
 import fonts from "@styles/base/fonts.module.scss";
 import { Calculator } from "@components";
+import { Logo } from "@components";
 
 export default function BecomeALugger() {
   return (
@@ -14,6 +15,7 @@ export default function BecomeALugger() {
       </Head>
       <main className={styles.main}>
         <div className={styles.container}>
+          <Logo />
           <h1 className={fonts.title}>
             Become a Lugger. <br></br>
             You could earn

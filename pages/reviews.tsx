@@ -1,9 +1,10 @@
 import Head from "next/head";
-import styles from "@styles/pages/Home.module.scss";
+import styles from "@styles/pages/Reviews.module.scss";
 import fonts from "@styles/base/fonts.module.scss";
 import { Stars, Review } from "@components";
 import reviews from "@data/reviews";
 import { ReviewProps } from "@types";
+import { Logo } from "@components";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Logo />
         <div className={styles.titleContainer}>
           <Stars />
           <h1 className={fonts.title}>Over 100,000 5-star moves</h1>
