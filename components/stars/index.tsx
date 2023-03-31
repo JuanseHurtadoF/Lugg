@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react";
 import { StarProps } from "@types";
-import styles from "@styles/components/stars.module.scss";
 
 const Stars: FunctionComponent<StarProps> = ({
   fill = "#FFCB45",
@@ -9,7 +8,7 @@ const Stars: FunctionComponent<StarProps> = ({
   gap = 1,
 }) => {
   return (
-    <div className={styles.starsContainer}>
+    <div style={{ display: "flex" }}>
       <svg
         width={width}
         height={height}
